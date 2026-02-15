@@ -10,7 +10,8 @@ function App() {
       {/* <Student></Student>
       <Developer name="Arafath" Tech="JavaScript"></Developer>
       <Developer name="Shihab" Tech="React"></Developer>
-      <Developer name="John" ></Developer> */}
+      <Developer name="John" ></Developer>
+      */}
     </>
   )
 }
