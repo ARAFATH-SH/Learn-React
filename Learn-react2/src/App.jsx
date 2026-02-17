@@ -2,6 +2,7 @@ import Batsman from './Batsman'
 import Friends from './Friends'
 import Users from './Users'
 import Post from './Posts'
+import Players from './Players'
 import { Suspense } from 'react'
 import './App.css'
 
@@ -33,10 +34,11 @@ function App() {
         <Friends friendsPromise = {friendsPromise}></Friends>
       </Suspense> */}
 
-      <Suspense fallback={<h2>Loading Posts...</h2>}>
+      {/* <Suspense fallback={<h2>Loading Posts...</h2>}>
         <Post postPromise = {postPromise}></Post>
-      </Suspense>
+      </Suspense> */}
 
+      <Players></Players>
     </>
   )
 }
