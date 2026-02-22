@@ -13,20 +13,20 @@ import './App.css'
 //     const res = await fetch("https://jsonplaceholder.typicode.com/users");
 //     return res.json();
 // }
-const fetchpost = async() => {
-    const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-    return res.json();
-}
+// const fetchpost = async() => {
+//     const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+//     return res.json();
+// }
 
 function App() {
 
   // const friendsPromise = fetchfriends();
-  const postPromise = fetchpost();
+  // const postPromise = fetchpost();
 
   return (
     <>
       <h3>React Core Concepts</h3>
-      <Batsman></Batsman>
+      {/* <Batsman></Batsman> */}
       {/* <Suspense fallback={<h2>Loading Users...</h2>}>
         <Users fetchUsers = {fetchUsers}></Users>
       </Suspense>
@@ -38,7 +38,7 @@ function App() {
         <Post postPromise = {postPromise}></Post>
       </Suspense> */}
 
-      <Players></Players>
+      {/* <Players></Players> */}
     </>
   )
 }
